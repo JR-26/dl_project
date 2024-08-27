@@ -2,3 +2,4 @@ streamlit
 numpy
 joblib==1.4.2
 tensorflow==2.17.0
+scikit-learn==1.3.2

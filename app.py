@@ -4,8 +4,8 @@ import joblib
 from tensorflow.keras.models import load_model
 
 # Load the model and the new scaler fitted on 7 features
-model = load_model("D:\\Users\\JOEL\\Downloads\\hcv_model.h5")
-scaler = joblib.load("D:\\Users\\JOEL\\Downloads\\scaler_7_features.pkl")
+model = load_model('hcv_model.h5')
+scaler = joblib.load('scaler_7_features.pkl')
 
 # Create Streamlit app
 st.title('Disease Classification Model')
